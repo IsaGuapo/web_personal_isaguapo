@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+/* index*/
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 55px;
+ }
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  display: block;
+
+}
+
+.header { 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header__wrapper {
+  margin-bottom: -52px;
+}
+
+.header__title strong {
+  letter-spacing: 2px;
+}
+
+.header__subtitle {
+  color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagen-isa {
+    flex: 0 0 100%;
+    padding: 0;
+}
+
+.titulo {
+  font-family: 'Mulish', sans-serif;
+  box-shadow: grey; 
+}
+
+.nav {
+  background-color: #7edcd1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.numero {
+    text-align: left;
+    margin-bottom: -100px;
+    font-size: 100px;
+    color: #fff;
+}
+.cursiva{
+  text-transform: none !important;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+}
+
+.section__wrapper article {
+  padding-left: 100px;
+}
+.section__wrapper h3{
+  
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.44444em;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.menu {
+  display: flex;
+  flex-flow: column wrap;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 8px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.capas li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 17px;
+}
+
+li a:hover{
+    color:#e7feff ;
+}
+
+.capas li a {
+  list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contenedor-columnas1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor-columnas2 {
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbf1fb;
+}
+
+.contenedor-columnas3 {
+  text-align: center;
+}
+
+.section__wrapper {
+  text-align: center;
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.section__link{
+  text-decoration: none;
+    display: inline-block;
+    padding: 7px 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid #ddd;
+    color: #3f3f3f;
+    border-radius: 50px;
+    background-color: #fcfcfc;
+}
+
+section {
+  padding: 70px;
+}
+
+ section p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.7;
+  padding: 15px 0px 0px 15px;
+  color: #848383
+}
+
+.section1 {
+  background-color: #eeecee;
+  flex: 0 0 100%;
+}
+
+.section2 {
+  background-color: #f7dcd9;
+  flex: 0 0 100%;
+ 
+}
+
+.section3 {
+  background-color: #e4c9ba;
+  flex: 0 0 100%;
+}
+
+.section4 {
+  background-color: #fbf1fb;
+  flex: 0 0 100%;
+}
+
+.footer {
+    background-color: rgb(230, 196, 152);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;  
+}
+
+.bloque1 .bloque2{
+  font-weight: 300;
+  font-family: 'Mulish', sans-serif;
+ }
+
+.bloque3 {
+  display: inline;
+  font-family: 'Mulish', sans-serif;
+}
+
+.p-biografia{
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+
+  .p_biografia {
+      margin: 15px 100px 50px;
+  }
+  .formulario {
+    margin: 15px 100px 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .imagen-isa {
+    flex: 0 0 33.4%;
+  }
+  .section1 {
+    flex: 0 0 33.3%;
+  }
+
+  .section2 {
+    flex: 0 0 33.3%;
+  }
+
+  .section3 {
+    flex: 0 0 33.3%;
+  }
+
+  .section4 {
+    flex: 0 0 66.6%;
+
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0 40px;
+  }
+  .menu{
+    flex-flow: row wrap;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+
+}
+/*AQUI COMIENZA LA PAG CLASES-ARTICULOS*/
+
+.contenedor_clases{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+.clases{
+  flex: 0 0 66.6%;
+  background-color: #f4c2c2;
+}
+.numero2{
+  text-align: left;
+    margin-bottom: -100px;
+    font-size: 100px;
+    color: rgb(105, 94, 94);
+    font-family: 'Quicksand', sans-serif;
+}
+.video{
+  flex: 0 0 33.4%;
+  display: block;
+ 
+}
+
+.alquimia {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_wrapper_class{
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.deporte{
+  
+   background-color:#eeecee ;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 1.7;
+
+}
+
+.sec_nutricion {
+  
+   font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 1.7;
+  background-color: #ffdab9;
+}
+h1.page2{
+  font-size: 50px;
+  color: #3f3f3f;
+  display: flex;
+  justify-content: center;
+  color:#969696;
+  border: 15px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.reserva{
+  color: #6b7acf;
+  
+}
+
+.video_title {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+/* aqui va el CONTACTO*/
+.contact{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 20px;
+
+}
+.redes{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.logo_redes{
+  width: 100%;
+  max-width: 30px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.instagram__logo{
+  margin-right: 10px;
+}
+.formulario{
+  background-size: cover;
+  background-image: linear-gradient( 45deg, #96d4e2bb, #dbbde2) ;
+  opacity: 1;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  line-height: 1.7;
+
+}
+
+/*aqui comienza la BIOGRAFIA*/
+.sobremi{
+  text-align: center;
+  color:#969696;
+  border: 15px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 50px;
+  line-height: 1.7;
+  margin: 20px;
+  
+}
+.p_biografia{
+  font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    line-height: 1.7;
+    margin: 15px 50px 50px;
+}
+.video_bio{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_bio{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.imagen_bio img{
+  max-width: 400px;
+    padding: 20px;
+}
+.volver{
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 35px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: 1px solid #ddd;
+  color: #3f3f3f;
+  border-radius: 50px;
+  background-color: #fcfcfc;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+}
+
